@@ -16,5 +16,5 @@ int main()
 	cin>>no2;
 	sum=no1+no2;
 	//print the sum of the digits here.
-	cout<<"The sum of the 2 numbers are <<sum;
+	cout<<"The sum of the 2 numbers are "<<sum;
 }

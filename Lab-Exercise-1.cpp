@@ -1,4 +1,4 @@
-//Find the sum of digits of a given number
+//Find the sum of a set of numbers
 
 #include <iostream>
 using namespace std;
@@ -6,20 +6,15 @@ using namespace std;
 int main()
 {
 
-	int no1,no2,x,sum;
+	int no1,no2,sum;
 
 	cout<<"Find the sum of a given number"<<endl;
 	cout<<"------------------------------"<<endl;
 
-	cout<<"Input number: "<<endl;
-
-
-	while(no2>0)
-	{
-	r=no1%10;
-	no1=no1/10;
-	sum=sum+x;
-
-	}
+	cout<<"Input 2 numbers: "<<endl;
+	cin>>no1;
+	cin>>no2;
+	sum=no1+no2;
 	//print the sum of the digits here.
+	cout<<"The sum of the 2 numbers are <<sum;
 }

@@ -11,15 +11,13 @@ int main()
 	cout<<"-------------------"<<endl;
 
 	int i,j,rows;
-	cout<<"Input number of rows :"<<endl;
+	cout<<"Input number of rows :";
     cin>>rows;
 
 	for(i=1;i<=rows;i++)
-	{
-	for(j=1;j<=i;j++)
-	
-		
-	cout<<j<<endl;
+	{	
+	cout<<"This is a new Row. "<<endl;
 	}
 }
+	
 	
